@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="color-scheme" content="light only">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Green Baskeet – Fruits & Vegetables, Delivered</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,28 +26,7 @@
       box-sizing: border-box;
       padding-top: env(safe-area-inset-top, 0px);
       padding-bottom: env(safe-area-inset-bottom, 0px);
-    }
-
-    @media (prefers-color-scheme:dark) {
-      :root:not([data-theme="light"]) {
-        --bg: #0F1D15;
-        --surface: #172A1E;
-        --ink: #EAF4E4;
-        --muted: #A3B9A9;
-        --leaf: #5CC48A;
-        --leaf-ink: #0B1A11;
-        --line: #274034;
-      }
-    }
-
-    :root[data-theme="dark"] {
-      --bg: #0F1D15;
-      --surface: #172A1E;
-      --ink: #EAF4E4;
-      --muted: #A3B9A9;
-      --leaf: #5CC48A;
-      --leaf-ink: #0B1A11;
-      --line: #274034;
+      color-scheme: light;
     }
 
     html {
